@@ -1,0 +1,6 @@
+:is(input, textarea):invalid{
+    background: red;
+}
+:is(input,textarea):valid{
+    background: green;
+}

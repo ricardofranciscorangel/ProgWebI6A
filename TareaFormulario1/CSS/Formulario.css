@@ -1,0 +1,9 @@
+html{
+    height: 100%;
+}
+body{
+    background: linear-gradient(#056e7c, #10acd3);
+}
+.todo{
+    float: inline-start;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UKmenu</title>
+    <link href="/CSS/countrymenu.css" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-image: url("/IMG/countrysmenu/UK/this-day-in-history-05-31-1859-big-ben-in-london.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+</style>
+<body onmouseenter="playHoverSoundUK()" onmouseleave="stopHoverSoundUK()">
+<audio id="UKHover" src="/Audio/UKHover.mp3" preload="auto"></audio>
+<div class="contenedor">
+     <a><img src="/IMG/countrysmenu/UK/UKWW1.png"></a>
+     <a><img src="/IMG/countrysmenu/UK/UKWW2.png"></a>
+     <a><img src="/IMG/countrysmenu/UK/UKCW (1).png"></a>
+     <a><img src="/IMG/countrysmenu/UK/UKMD.png"></a>
+
+</div>
+<div class="bordeyear">
+<div class="year">1914-2025</div>
+</div>
+<script src="/JS/Audio.js"></script>
+    
+</body>
+</html>
