@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WNS</title>
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <div class="contenedor">
+    <form action="#" novalidate>
+      <h1>Prototypes</h1>
+
+      <div class="campo">
+        <label for="tipo">Tipo de vehículo:</label>
+        <select id="tipo" name="tipo" required>
+          <option value="">Seleccione tipo…</option>
+          <option value="tanque">Tanque</option>
+          <option value="avion">Avión</option>
+          <option value="barco">Barco</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="nombre">Nombre del vehículo:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ej: M4 Sherman" required minlength="3"/>
+      </div>
+
+      <div class="campo">
+        <label for="epoca">Época:</label>
+        <select id="epoca" name="epoca" required>
+          <option value="">Seleccione época…</option>
+          <option value="ww1">Primera Guerra Mundial</option>
+          <option value="ww2">Segunda Guerra Mundial</option>
+          <option value="moderno">Moderno</option>
+        </select>
+      </div>
+
+      <div class="campo">
+        <label for="anio">Año de Servicio:</label>
+        <input type="number" id="anio" name="anio" placeholder="Ej: 1942" required min="1900" max="2025"/>
+      </div>
+
+      <div class="campo">
+        <label for="arma">Armamento Principal:</label>
+        <input type="text" id="arma" name="arma" required />
+      </div>
+
+      <div class="campo">
+        <label for="valor">Valor técnico:</label>
+        <input type="text" id="valor" name="valor" placeholder="Ej: 900kg payload o 100mm de blindaje" required />
+      </div>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </div>
+</body>
+</html>
+
