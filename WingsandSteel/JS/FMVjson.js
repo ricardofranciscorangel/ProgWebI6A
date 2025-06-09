@@ -1,4 +1,4 @@
-fetch('/data/FMV.json')
+fetch('../data/FMV.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('card-pool');

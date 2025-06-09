@@ -1,4 +1,4 @@
-fetch('/data/USAWW2V.json')
+fetch('../data/USAWW2V.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('card-pool');

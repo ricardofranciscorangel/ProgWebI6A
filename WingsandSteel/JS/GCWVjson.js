@@ -1,4 +1,4 @@
-fetch('/data/GCWV.json')
+fetch('../data/GCWV.json')
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById('card-pool');

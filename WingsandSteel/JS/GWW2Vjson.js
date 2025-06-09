@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  fetch('/data/GWW2V.json')
+  fetch('../data/GWW2V.json')
     .then(response => response.json())
     .then(data => {
       allCardsData = data;

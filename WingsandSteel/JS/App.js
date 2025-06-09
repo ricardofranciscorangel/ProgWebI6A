@@ -1,38 +1,37 @@
-
 const iframe = document.getElementById("iframeContent");
 
 function cargarWW1() {
-    cargarIframe("/HTML/ww1menu.html");
+    cargarIframe("../HTML/ww1menu.html");
 }
 function cargarWW2() {
-    cargarIframe("/HTML/ww2menu.html");
+    cargarIframe("../HTML/ww2menu.html");
 }
 function cargarcoldwar() {
-    cargarIframe("/HTML/coldwarmenu.html");
+    cargarIframe("../HTML/coldwarmenu.html");
 }
 function cargarmodern() {
-    cargarIframe("/HTML/modernmenu.html");
+    cargarIframe("../HTML/modernmenu.html");
 }
 function cargarukraine() {
-    cargarIframe("/HTML/ukrainemenu.html");
+    cargarIframe("../HTML/ukrainemenu.html");
 }
 function cargarGermany() {
-    cargarIframe("/HTML/Germamenu.html");
+    cargarIframe("../HTML/Germamenu.html");
 }
 function cargarRussia() {
-    cargarIframe("/HTML/Russiamenu.html");
+    cargarIframe("../HTML/Russiamenu.html");
 }
 function cargarUSA() {
-    cargarIframe("/HTML/USAmenu.html");
+    cargarIframe("../HTML/USAmenu.html");
 }
 function cargarJapan() {      
-    cargarIframe("/HTML/Japanmenu.html");
+    cargarIframe("../HTML/Japanmenu.html");
 }
 function cargarFrance() {
-    cargarIframe("/HTML/Francemenu.html");
+    cargarIframe("../HTML/Francemenu.html");
 }
 function cargarUK() {
-    cargarIframe("/HTML/UKmenu.html");
+    cargarIframe("../HTML/UKmenu.html");
 }
 function cargarIframe(url) {
     iframe.src = url;

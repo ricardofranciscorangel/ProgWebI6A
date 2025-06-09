@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ukrainemenu</title>
+    <title>Ukraine Conflict Menu</title>
     <link href="/CSS/eramenusukraine.css" rel="stylesheet">
     <style>
         body {
@@ -22,13 +22,21 @@
     </style>
 </head>
 <body onmouseenter="playHoverSoundUkraine()" onmouseleave="stopHoverSoundUkraine()">
-<audio id="UkraineHover" src="/Audio/UkraineHover.mp3" preload="auto"></audio>
+    <audio id="UkraineHover" src="/Audio/UkraineHover.mp3" preload="auto"></audio>
+
     <div class="contenedor">
-        <a><img src="/IMG/ukraine/Ukrainemenu/UkraineRK.png"></a>
-        <a><img src="/IMG/ukraine/Ukrainemenu/RussiancRK.png"></a>
+        <a href="/HTML/UkraineRK.html" target="_blank">
+            <img src="/IMG/ukraine/Ukrainemenu/UkraineRK.png" alt="Ukrainian Forces">
+        </a>
+        <a href="/HTML/RussianRK.html" target="_blank">
+            <img src="/IMG/ukraine/Ukrainemenu/RussiancRK.png" alt="Russian Forces">
+        </a>
     </div>
+
     <div class="bordeyear">
-        <div class="year">2022-2025</div>
+        <div class="year">2022–2025</div>
     </div>
+
+    <script src="/JS/Audio.js"></script>
 </body>
 </html>
